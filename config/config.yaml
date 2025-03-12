@@ -1,0 +1,10 @@
+paths:
+  raw_data: "/Users/tekrajawasthi/Documents/machine_learning_projects/XplodeContent-AI/data/raw/x_analytics_data_raw.csv"
+  processed_data: "/Users/tekrajawasthi/Documents/machine_learning_projects/XplodeContent-AI/data/raw/x_analytics_data_processed.parquet"
+  
+model_params:
+  bert_model: "bert-base-uncased"
+  xgboost:
+    max_depth: 6
+    n_estimators: 200
+    learning_rate: 0.01
