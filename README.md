@@ -12,9 +12,6 @@ This repository hosts an end-to-end ML system that analyzes historical X (Twitte
 - **Recommend** high-impact posting strategies
 - **Explain** key drivers of virality (hashtags, timing, etc.)
 
-![Architecture Diagram](https://via.placeholder.com/800x400.png?text=Hybrid+Model+Architecture)  
-*(Replace with actual diagram link)*
-
 ---
 
 ## ✨ Features
