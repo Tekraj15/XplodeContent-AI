@@ -6,15 +6,15 @@ _A machine learning pipeline to predict engagement-optimized posts by combining 
 
 ---
 
-## 🔍 Overview
+## Overview
 This repository hosts an end-to-end ML system that analyzes historical X (Twitter) analytics data to:
-- **Predict** which topics/content styles will trend
-- **Recommend** high-impact posting strategies
-- **Explain** key drivers of virality (hashtags, timing, etc.)
+- **Predict** which topics/content styles will trend in my niche
+- **Recommend** high-impact posting strategies based on my high-performing content in the past
+- **Explain** key drivers of high engagement rates (hashtags, timing, etc.)
 
 ---
 
-## ✨ Features
+## Features
 - **Hybrid Model**: BERT (NLP) + XGBoost (structured data) ensemble
 - **Real-Time Integration**: X API for fresh analytics ingestion
 - **Production-Ready**: Feature store, model serving, and monitoring
