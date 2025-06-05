@@ -1,0 +1,11 @@
+name: xplode-content-ai
+docker_env:
+  image: python:3.9
+  volumes:
+    - ./:/mlflow
+entry_points:
+  main:
+    parameters:
+      data_path: {type: str, default: "s3://xplode-features/processed/data.csv"}
+    command: |
+      python train_model.py --data-path {data_path}
